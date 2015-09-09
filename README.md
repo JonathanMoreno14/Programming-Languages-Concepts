@@ -3,7 +3,8 @@ This is a list of object oriented  programming languages that includes their syn
 
 
 Examples:
-Finding out if the given number is greater than 50.
+
+Finding out if the given number is greater than or less than 50.
 
 #####Java
 ```java
