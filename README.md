@@ -42,8 +42,22 @@ def num(int= '')                     # Method def
 end
 
 
- num(78)
+ num(78) 
+ #Prints The number is greater than 50
 
 ```
 
+#####Javascript
+```javascript
+function numbers(nums){    //Function contains a nums within its parameters
+    if(nums > 50){         //Checks conditional statement if nums is greater than 50
+        console.log("This number is greater than 50"); //if so, then the console output prints this message
+    }else{
+         console.log("This number is less than 50"); //else it prints this console output
+    }
+}
 
+numbers(78) 
+//Prints This number is greater than 50
+
+```
