@@ -75,5 +75,51 @@ namespace C_Sharp
 
 ```C#
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C_Sharp
+{       //Polymorphism
+
+    class ProgramTwo
+    {
+        public void display(string name)
+        {
+            Console.WriteLine("Your name is : " + name);
+        }
+        public void display(int age)
+        {
+            Console.WriteLine("Your Age is : " + age);
+        }
+        public void displayNumber(long number)
+        {
+            Console.WriteLine("Your Phone Number is : " + number);
+        }
+    }
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ProgramTwo pt = new ProgramTwo();
+            pt.display("John");
+            pt.display(34);
+            pt.displayNumber(8175551234);
+            Console.ReadLine();
+        }
+    }
+
+    /*
+     Your name is : John
+     Your Age is : 34
+     Your Phone Number is : 8175551234
+
+    */
+}
+
 
 ```
