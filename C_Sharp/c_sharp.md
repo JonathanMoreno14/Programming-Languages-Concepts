@@ -32,7 +32,7 @@ namespace C_Sharp
         }
         public double getDiv() ///Divide
         {
-            return num1 * num2;
+            return num1 / num2;
         }
 
         public void Answers()
@@ -61,7 +61,7 @@ namespace C_Sharp
       Addition: 23
       Subtraction: 5
       Multiplication: 126
-      Division: 126
+      Division: 1.55555555555556
 
     */
 }
