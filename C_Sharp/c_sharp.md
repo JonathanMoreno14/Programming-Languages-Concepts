@@ -123,3 +123,11 @@ namespace C_Sharp
 
 
 ```
+
+
+
+####Interface
+```C#
+
+
+```
