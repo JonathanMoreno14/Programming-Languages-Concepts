@@ -131,3 +131,9 @@ namespace C_Sharp
 
 
 ```
+
+####Inheritance
+```C#
+
+
+```
