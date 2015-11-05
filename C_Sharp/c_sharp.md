@@ -190,6 +190,45 @@ namespace C_Sharp
 
     */
 
+```
+
+
+####Constructors
+```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C_Sharp
+{         //Constructors
+    class Program
+    {
+        string person;
+        int idNumber;
+
+        public Program()   
+        {
+            person = "John";
+            idNumber = 10934;
+        }
+
+        public static void Main()
+        {
+            Program info = new Program(); 
+            Console.WriteLine(info.person);
+            Console.WriteLine(info.idNumber);
+            Console.Read();
+        }
+    }
+}
+
+    /*
+    John
+    10934
+    */
+
 
 
 ```
