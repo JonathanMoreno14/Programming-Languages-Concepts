@@ -134,6 +134,62 @@ namespace C_Sharp
 
 ####Inheritance
 ```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C_Sharp
+{         //Inheritance
+    class ProgramTwo
+    {
+        protected  string name;
+        protected int age;
+        public void getName(string nombre)
+        {
+            name = nombre;
+        }
+        public void getAge(int años)
+        {
+            age = años;
+        }
+    }
+        class ProgramThree : ProgramTwo
+        {
+            public string getName()
+            {
+                return name;
+            }
+
+            public int getAge()
+            {
+                return age;
+            }
+        }
+
+
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                ProgramThree pt3 = new ProgramThree();
+                pt3.getName("John");
+                pt3.getAge(23);
+                Console.WriteLine("Your name is: {0}", pt3.getName());
+                Console.WriteLine("Your age is: {0}", pt3.getAge());
+                Console.ReadLine();
+            }
+        }
+    }
+
+    /*
+    Your name is: John
+    Your age is: 23
+
+
+    */
+
 
 
 ```
