@@ -235,6 +235,49 @@ namespace C_Sharp
 
 ####Assessor
 ```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C_Sharp
+{         //Assessor
+    class ProgramTwo
+    {
+        public string person;
+        public string Person
+        {
+            get
+            {
+                return person;
+            }
+            set
+            {
+                person = value;
+            }
+        }
+    }
+
+    class Program 
+    {
+
+        public static void Main()
+        {
+            ProgramTwo pt2 = new ProgramTwo();
+            pt2.person = "Jonathan";
+            Console.WriteLine("My name is: {0}", pt2.person);
+            Console.ReadLine();
+        }
+    }
+
+}
+
+        /*
+
+        My name is: Jonathan
+
+        */
 
 
 ```
