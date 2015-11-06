@@ -286,6 +286,37 @@ namespace C_Sharp
 ####Methods
 ```C#
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
+namespace Numbers
+{
+            class Program
+            {
+            
+                public static void numberGreater(int n)
+            {
+                if (n > 50)
+                {
+                    Console.WriteLine("The number is greater that 50");
+                }
+                else {
+                    Console.WriteLine("The number is less than 50");
+                }
+            }
+            
+                static void Main(string[] args)
+                {
+                    Console.WriteLine("Enter a Number:");  //Enter the number
+                    int num = Convert.ToInt32(Console.ReadLine());  //Converts string to interger from the number input
+                    numberGreater(num);  //Calls method numberGreater(int n)
+                    Console.WriteLine(num); //prints out the conditional statement result
+                    Console.ReadLine();
+                }
+          }
+}
 
 ```
