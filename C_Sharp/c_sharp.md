@@ -330,3 +330,87 @@ The number is less than 50
 
 
 ```
+
+
+####Properties
+```C#
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C_Sharp
+{         //Properties
+    class ProgramTwo
+    {
+
+        string name = "";
+        int age = 0;
+        int id = 0;
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
+        public int Age
+        {
+            get
+            {
+                return age;
+            }
+            set
+            {
+                age = value;
+            }
+
+        }
+        public int ID
+        {
+            get
+            {
+                return id;
+            }
+            set
+            {
+                id = value;
+            }
+        }
+
+        public override string ToString()
+        {
+            return "Name = " + Name + "  Age = " + Age + " ID " + ID ;
+        }
+
+
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                ProgramTwo pt2 = new ProgramTwo();
+                pt2.Name = "John Rambo";
+                pt2.Age = 23;
+                pt2.ID = 10123;
+                Console.WriteLine("Identification - {0}", pt2);
+                Console.ReadLine();
+            }
+        }
+    }
+}
+
+/*
+
+    Identification - Name = John Rambo  Age = 23 ID 10123
+
+*/
+
+
+
+```
