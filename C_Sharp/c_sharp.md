@@ -293,7 +293,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Numbers
-{
+{          ///Method
             class Program
             {
             
@@ -318,5 +318,15 @@ namespace Numbers
                 }
           }
 }
+
+/*
+Enter a Number:
+34
+The number is less than 50
+34
+
+
+*/
+
 
 ```
