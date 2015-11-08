@@ -496,5 +496,38 @@ namespace C_Sharp
             5
             6
         */
+        
+        
+        
+        //Collections
+        //Dictionaries
+    class Program
+        {
+            static void Main(string[] args)
+            {
+            Dictionary<string, int> names = new Dictionary<string, int>();
+            names.Add("John", 1);
+            names.Add("Steve", 2);
+            names.Add("Bill", 3);
+            names.Add("Larry", 4);
+
+            foreach (var pair in names)
+            {
+                Console.WriteLine("{0}, {1}",
+                pair.Key,
+                pair.Value);
+            }
+            Console.ReadKey();
+          
+            }
+        }
+    }
+
+        /*
+        John, 1
+        Steve, 2
+        Bill, 3
+        Larry, 4
+        */
 
 ```
