@@ -414,3 +414,58 @@ namespace C_Sharp
 
 
 ```
+
+
+####Collections
+
+```C#
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+
+namespace C_Sharp
+          //Collections
+{         //Arrays
+        class Program
+        {
+            static void Main(string[] args)
+            {
+            int[] n = new int[5]; 
+            int i, j;
+
+          
+            for (i = 0; i < 5; i++)
+            {
+                n[i] = i + 100;
+            }
+
+           
+            for (j = 0; j < 5; j++)
+            {
+                Console.WriteLine("Element[{0}] = {1}", j, n[j]);
+            }
+            Console.ReadKey();
+          
+            }
+        }
+    }
+
+
+
+/*
+
+    Element[0] = 100
+    Element[1] = 101
+    Element[2] = 102
+    Element[3] = 103
+    Element[4] = 104
+
+*/
+
+
+```
