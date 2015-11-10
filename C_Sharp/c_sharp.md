@@ -415,6 +415,106 @@ namespace C_Sharp
 
 ```
 
+####Loops
+
+```C#
+
+
+   ///for
+  class Program
+   {
+      static void Main(string[] args) 
+      {
+          int num = 10;
+            for (int i = 0; i < num; i++)
+
+            Console.WriteLine(i);
+            Console.ReadLine(); 
+      }
+   }
+   /*
+     0     1     2     3     4     5     6     7     8     9
+  */
+
+
+
+///while
+class Program 
+   {
+      static void Main(string[] args) 
+      {
+        int num = 0;
+
+            while (num < 10)
+            {
+                Console.WriteLine(num);
+                num = num + 1;
+            }
+            Console.ReadLine(); 
+      }
+   }
+  
+  /*
+     0     1     2     3     4     5     6     7     8     9
+  */
+  
+  
+  
+  ///do while
+class Program 
+   {
+      static void Main(string[] args) 
+      {
+            int num = 10;
+            do
+            {
+                Console.WriteLine("value of num: {0}", num);
+                num = num + 1;
+            }
+            while (num < 20);
+            Console.ReadLine(); 
+      }
+   }
+
+  /*
+   value of num: 10   
+   value of num: 11   
+   value of num: 12   
+   value of num: 13   
+   value of num: 14   
+   value of num: 15   
+   value of num: 16   
+   value of num: 17   
+   value of num: 18   
+   value of num: 19
+  */
+  
+  
+  
+   ///foreach
+  class Program
+   {
+      static void Main(string[] args) 
+      {
+       ArrayList listName = new ArrayList();
+            listName.Add("John");
+            listName.Add("Jonathan");
+            listName.Add("Jim");
+
+             foreach(string name in listName)
+             Console.WriteLine(name);
+             Console.ReadLine(); 
+      }
+   }
+    /*
+    John
+    Jonathan
+    Jim
+    */
+    
+    
+
+```
 
 ####Collections
 
