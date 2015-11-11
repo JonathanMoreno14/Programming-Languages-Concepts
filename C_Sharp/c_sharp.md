@@ -129,6 +129,60 @@ namespace C_Sharp
 ####Interface
 ```C#
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C_Sharp
+{         //Interfaces
+  public interface info
+ {
+     void showInfo();
+
+ }
+ public class ProgramTwo : info
+ {
+     string name;
+     int age;
+
+
+     public ProgramTwo()
+     {
+         name = "";
+         age = 23;
+     }
+
+     public ProgramTwo(string a , int b)
+     {
+         name = a;
+         age = b;
+     }
+
+     public void showInfo()
+     {
+         Console.WriteLine("Name: {0}", name);
+         Console.WriteLine("Age: {0}", age);
+
+     }
+ }
+
+ class Program
+ {
+     static void Main(string[] args)
+     {
+         ProgramTwo info = new ProgramTwo("John", 23);
+         info.showInfo();
+         Console.ReadLine();
+     }
+ }
+}
+    /*
+    Name: John
+   Age: 23
+   */
+
 
 ```
 
