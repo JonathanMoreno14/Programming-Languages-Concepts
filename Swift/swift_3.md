@@ -66,6 +66,41 @@ Numbers
 
 ```swift
 
+//Numbers
+//Type interence
+var age = 30
+//Explicity declared type
+var weight: Int = 200  //Int
+
+var someNum: Double = 123423455455653
+
+var mileRan = 56.45
+
+var pi: Float = 3.14
+
+//Arithemtic Operators
+var area = 2 * 20
+
+var sum = 2 + 20
+
+var diff = 20 - 2
+
+var div =  20 / 2
+
+var remainder =  12 % 5
+
+
+var randonNum  = 12
+
+if randonNum % 2 == 0 {
+    print("this is a even number")
+}else{
+    print("this is an odd number")
+}
+
+
+var orderOfOperations = 15 * ((5 + 7) / 3 )
+
 
 ```
 
