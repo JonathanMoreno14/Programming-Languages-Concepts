@@ -98,6 +98,23 @@ namespace Numbers
           }
 }
 
+```
 
+Swift
+
+```swift
+
+func numbers(num: Int) -> Int{
+    if num > 50 {
+        print("The number is greater than 50")
+        return num
+    }else {
+        print("The number is less than 50")
+        return num
+    }
+}
+
+numbers(num: 78)
+//Prints The number is greater than 50
 
 ```
