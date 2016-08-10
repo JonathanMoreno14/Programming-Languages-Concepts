@@ -163,6 +163,21 @@ var itemPurchased = 40.00
 bankAcctBalance = purchaseItem(currtBalance: bankAcctBalance, itemPrice: itemPurchased)
 
 
+func numbers(num: Int) -> Int{
+    if num > 50 {
+        print("The number is greater than 50")
+        return num
+    }else {
+        print("The number is less than 50")
+        return num
+    }
+}
+
+numbers(num: 78)
+//Prints The number is greater than 50
+
+
+
 ```
 
 Booleans & Conditional Logic
