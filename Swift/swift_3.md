@@ -184,6 +184,67 @@ Booleans & Conditional Logic
 
 ```swift
 
+//Boolean and Conditional Logic
+
+var todayIsFriday = true
+
+todayIsFriday = false
+
+var todayIsSaturday: Bool = true
+
+
+//  Or ||
+if true == false || true == true{
+    print("WTFish")
+}
+
+var hasDataFinishedDownloading: Bool = false
+
+if !hasDataFinishedDownloading {
+    print("Loading data...")
+}
+
+hasDataFinishedDownloading = true
+
+if 2 == 2 {
+    print("Should  see this")
+}
+
+
+//Equal to:  ==
+//Not equal to: !=
+//Greater than: >
+//Greater than or equal to: >=
+//Less than or equal to: <=
+//Less than: <
+
+var bankBalance = 400
+var itemToBuy = 400
+
+if bankBalance >= itemToBuy {
+    print("purchased item")
+}
+
+if itemToBuy > bankBalance{
+    print("Not enough funds to purchase the item")
+}
+
+if itemToBuy == bankBalance{
+    print("Your funds are know at 0")
+}
+
+var bookTitle1 = "Harry Potter"
+var bookTitle2 = "Harryy otter"
+
+if bookTitle1 != bookTitle2{
+    print("Need to fix spelling on the book title")
+} else if bookTitle2.characters.count > 10 {
+    print("find a new title for the book")
+}
+else {
+    print("Both book titles match")
+}
+
 
 ```
 
