@@ -252,6 +252,36 @@ Contants & Logical Operators
 
 ```swift
 
+//Logical NOT operator - unary prefix operator
+
+let allowedEntry = false
+
+if !allowedEntry{ //if allowedEntry != true
+    print("Access Denied")
+}
+
+
+let entreredDoorCode = true
+let passedRetinaScan = false
+let personWithCode = true
+
+
+if entreredDoorCode && passedRetinaScan || personWithCode{
+    print("Welcome")
+}else {
+    print("Access Denied Again")
+}
+
+
+let hasDoorKey = false
+let knowsOverridePassword = true
+
+if hasDoorKey || knowsOverridePassword {
+    print("Welcome")
+}else{
+    print("Access Denied")
+}
+
 
 ```
 Arrays
