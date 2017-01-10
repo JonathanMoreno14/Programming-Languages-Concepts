@@ -288,6 +288,39 @@ Arrays
 
 ```swift
 
+//Arrays
+
+var employee1Salary = 45000.0
+var employee2Salary = 54000.0
+var employee3Salary = 100000.0
+var employee4Salary = 20000.0
+
+
+
+var employeeSalaries = [45000.0, 54000.0, 100000.0, 20000.0]
+print(employeeSalaries.count)
+
+employeeSalaries.append(3900.34)
+
+print(employeeSalaries.count)
+
+employeeSalaries.remove(at: 1)
+
+print(employeeSalaries.count)
+
+
+var students = [String]() //empty array of strings
+print(students.count)
+
+students.append("Jon")
+students.append("Jacob")
+students.append("Jose")
+students.append("Smith")
+students.append("Will")
+
+print(students)
+
+
 
 ```
 
