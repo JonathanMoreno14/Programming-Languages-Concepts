@@ -371,6 +371,46 @@ Dictionaries
 
 ```swift
 
+//Dictionaries
+
+//Hash table 
+
+
+var namesOfInteger = [Int: String]()
+
+namesOfInteger[3] = "three"
+namesOfInteger[44] = "forty four"
+
+namesOfInteger = [:]
+
+
+var airports: [String : String] = ["YYZ" : "Toronto Pearson", "LAX" : "Los Angeles International"]
+
+print("The airports dictionary has: \(airports.count) items")
+
+if airports.isEmpty{
+    print("The airport dictionary is empty")
+}
+
+//change an update
+airports["LHR"] = "London"
+airports["LHR"] = "London Heathrow"
+airports["DEV"] = "Dev Internationl"
+
+//destroy and remove the iteme
+airports["Dev"] = nil
+
+for (airportsCode, airportName) in airports{
+    print("\(airportsCode): \(airportName)")
+}
+
+for key in airports.keys{
+print("Key ; \(key)")
+}
+
+for val in airports.values{
+    print("Values : \(val)")
+}
 
 ```
 
