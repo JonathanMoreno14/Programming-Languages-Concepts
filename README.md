@@ -118,3 +118,22 @@ numbers(num: 78)
 //Prints The number is greater than 50
 
 ```
+
+
+### Python 3
+
+```python
+
+def num(num1):
+     if num1 > 50:
+       print("The number is greater than 50")
+     else:
+      print("The number is less than 50")
+
+
+num(70)
+
+
+
+```
+
