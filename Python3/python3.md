@@ -146,14 +146,33 @@ print(contacts['leo']['mobile'])
 
 
 
-
-
 ```
 
-
+### Control flow
 
 ```python
 
+i = 10
+if i % 2 == 0:
+    if i > 10:
+        print("Number is even and greater than 10")
+    elif i < 10:
+        print("Number is even and less than 10")
+    else:
+         print("Number is even being 10")
+else:
+    print("Number is odd")
+
+
+names = ["leo", "smith", "jason"]
+
+for n in names:
+    print(n)
+
+index = 0
+while index < len(names):
+    print(names[index])
+    index += 1
 
 
 
