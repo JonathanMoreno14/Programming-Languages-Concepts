@@ -6,7 +6,7 @@ Examples:
 
 Finding out if the given number is greater than or less than 50.
 
-#####Java
+### Java
 ```java
 
 public class numbers{
@@ -31,7 +31,7 @@ public static void main(String[] args) {
 ```
 
 
-#####Ruby
+### Ruby
 ```ruby
 def num(int= '')                     # Method def 
   if int > 50                        # The user inputs a number in num() it checks if the number is greater than 50
@@ -47,7 +47,7 @@ end
 
 ```
 
-#####Javascript
+### Javascript
 ```javascript
 function numbers(nums){    //Function contains a nums within its parameters
     if(nums > 50){         //Checks conditional statement if nums is greater than 50
@@ -63,7 +63,7 @@ numbers(78)
 ```
 
 
-#####CSharp
+### CSharp
 ```C#
 
 using System;
@@ -100,7 +100,7 @@ namespace Numbers
 
 ```
 
-Swift
+### Swift
 
 ```swift
 
