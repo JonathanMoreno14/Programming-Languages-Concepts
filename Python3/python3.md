@@ -182,7 +182,25 @@ while index < len(names):
 
 ```python
 
+def say_hi(name, age):
+    print("My names is " + name)
+    print("I'm " + str(age) + " years old.")
 
+say_hi("Adam", 27)
+say_hi("Lee", 28)
+say_hi("John", 29)
+
+
+number = 15 #gloa
+
+def summary():
+    number = 20 #local variable
+    global number2
+    number2 = 25
+    print("Inside: " + str(number))
+
+summary()
+print("Outside: " + str(number2))
 
 
 
