@@ -175,18 +175,56 @@ while index < len(names):
     index += 1
 
 
-
-
-
 ```
 
 
+### Functions
 
 ```python
 
 
 
 
+
+
+```
+
+### Classes
+
+```python
+
+class Restaurant:
+   def _init_(self, name, address, revenue):
+      self.name = name
+      self.address = address
+      self.revenue = revenue
+
+      def show_address(self):
+          print(self.address)
+
+      def show_revenue(self):
+          print(self.revenue)
+
+      def order(self, money):
+         self.revenue += money
+
+
+```
+
+### Modules
+
+```python
+
+n = math.sqrt(16)
+print(n)
+
+import my_module
+
+print(my_module.number_of_styles)
+
+text = "I love to Code"
+print(my_module.style_upper(text))
+print(my_module.style_lower(text))
 
 
 ```
